@@ -45,3 +45,7 @@ Example files are provided.
 * **OpenMP**: `>= 4.5`
 
 Newer versions of Qt might work correctly, if no breaking changes that affect the application were introduced.
+
+## Showcase
+
+https://github.com/user-attachments/assets/1e5a3f52-17b8-4727-ada5-8ae3649a8f86

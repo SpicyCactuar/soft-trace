@@ -49,4 +49,4 @@ Newer versions of Qt might work correctly, if no breaking changes that affect th
 
 ## Showcase
 
-https://github.com/user-attachments/assets/1e5a3f52-17b8-4727-ada5-8ae3649a8f86
+![soft-trace](https://github.com/user-attachments/assets/2e5d981c-8d5d-4b2b-bdb8-c9f5149da0f7)

@@ -3,14 +3,14 @@
 CPU Ray Tracing application exhibiting basic Global Illumination effects.
 The application displays a Qt UI with two windows: the left window shows the scene rendered using OpenGL (immediate mode), while the right window displays the equivalent ray-traced scene.
 
+![soft-trace](https://github.com/user-attachments/assets/2e5d981c-8d5d-4b2b-bdb8-c9f5149da0f7)
+
 ## Project Structure
 
 ```plaintext
 soft-trace/
 ├── src/                 # Source code
 ├── assets/              # Static assets (.obj and .mtl files)
-├── build/               # Generated build files
-├── bin/                 # Generated executable files
 ├── soft-trace.pro       # QMake project
 └── README.md            # Project README
 ```
@@ -46,7 +46,3 @@ Example files are provided.
 * **GLM**: `1.0.1`
 
 Newer versions of Qt might work correctly, if no breaking changes that affect the application were introduced.
-
-## Showcase
-
-![soft-trace](https://github.com/user-attachments/assets/2e5d981c-8d5d-4b2b-bdb8-c9f5149da0f7)

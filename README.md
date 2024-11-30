@@ -13,7 +13,7 @@ The application displays a Qt UI with two windows: the left window shows the sce
 * Refractions - Controlled by custom `.mtl` property `0 <= N_transp <= 1`
 * Shadows - Single shadow ray test
 * Area Lights - 20 shadow samples
-* Interpolation - Render normal as RGB
+* Interpolation - Render normal as `[r, g, b] = abs([n.x, n.y, n.z])`
 * Orthographic - Renders scene using Orthographic or Perspective camera
 
 

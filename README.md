@@ -5,6 +5,18 @@ The application displays a Qt UI with two windows: the left window shows the sce
 
 ![soft-trace](https://github.com/user-attachments/assets/2e5d981c-8d5d-4b2b-bdb8-c9f5149da0f7)
 
+## Global Illumination effects supported
+
+* Blinn-Phong shading - Affected by standard `.mtl` properties {`Ka`, `Kd`, `Ks`, `Ke`}
+* Fresnel - Controlled by custom `.mtl` property `N_ior` (see [Typical values](https://en.wikipedia.org/wiki/Refractive_index#Typical_values))
+* Reflections - Controlled by custom `.mtl` property `0 <= N_mirr <= 1`
+* Refractions - Controlled by custom `.mtl` property `0 <= N_transp <= 1`
+* Shadows - Single shadow ray test
+* Area Lights - 20 shadow samples
+* Interpolation - Render normal as RGB
+* Orthographic - Renders scene using Orthographic or Perspective camera
+
+
 ## Project Structure
 
 ```plaintext

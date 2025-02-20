@@ -1,9 +1,11 @@
 # Soft Trace
 
+![soft-trace](https://github.com/user-attachments/assets/2e5d981c-8d5d-4b2b-bdb8-c9f5149da0f7)
+
 CPU Ray Tracing application exhibiting basic Global Illumination effects.
 The application displays a Qt UI with two windows: the left window shows the scene rendered using OpenGL (immediate mode), while the right window displays the equivalent ray-traced scene.
 
-![soft-trace](https://github.com/user-attachments/assets/2e5d981c-8d5d-4b2b-bdb8-c9f5149da0f7)
+The different effects are achieved by performing different ray generation + intersection + resolution strategies.
 
 ## Global Illumination effects supported
 
@@ -15,7 +17,6 @@ The application displays a Qt UI with two windows: the left window shows the sce
 * Area Lights - 20 shadow samples
 * Interpolation - Render normal as `[r, g, b] = abs([n.x, n.y, n.z])`
 * Orthographic - Renders scene using Orthographic or Perspective camera
-
 
 ## Project Structure
 
